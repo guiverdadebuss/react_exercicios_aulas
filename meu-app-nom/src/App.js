@@ -1,12 +1,14 @@
 
 import './App.css';
-import NumberGenerator from './components/Gerar';
+import NumberGenerator from './components/NumberGenerator';
+import Counter from './components/Counter';
 
 
 function App() {
   return (
-    <div>
+    <div className='App'>
       <NumberGenerator/>
+      <Counter/>
     </div>
   );
 }
